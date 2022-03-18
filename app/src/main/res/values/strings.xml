@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">IDLP</string>
+    <string-array name="Grade">
+        <item>Grade</item>
+        <item>PP1</item>
+        <item>PP2</item>
+        <item>Grade 1</item>
+        <item>Grade 2</item>
+        <item>Grade 3</item>
+    </string-array>
+    <string-array name="DescriptionOfDisability">
+        <item>Disability</item>
+        <item>Dumb</item>
+        <item>Deaf or hard of hearing</item>
+        <item>Physical disability</item>
+    </string-array>
+</resources>
