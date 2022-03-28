@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_learn"
+        android:icon="@drawable/ic_baseline_laptop_24"
+        android:title="Learn" />
+    <item
+        android:id="@+id/nav_forum"
+        android:icon="@drawable/ic_baseline_group_24"
+        android:title="Forum" />
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_baseline_emoji_emotions_24"
+        android:title="Me" />
+</menu>

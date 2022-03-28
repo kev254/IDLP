@@ -3,11 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/fun_quiz.xml" value="0.1385" />
+        <entry key="app/src/main/res/drawable/ic_baseline_auto_awesome_24.xml" value="0.1385" />
+        <entry key="app/src/main/res/drawable/live.xml" value="0.1385" />
         <entry key="app/src/main/res/layout/activity_care_giver_information_registration.xml" value="0.19791666666666666" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19791666666666666" />
         <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.18333333333333332" />
         <entry key="app/src/main/res/layout/activity_student_infomation_registration.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/assignments_layout.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/fragment_forum.xml" value="0.18333333333333332" />
+        <entry key="app/src/main/res/layout/fragment_learn.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/live_classes_layout.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/ongoing_layout.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/subjects_layout.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/menu/bottom_nav.xml" value="0.19791666666666666" />
       </map>
     </option>
   </component>
