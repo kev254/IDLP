@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">IDLP</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
     <string-array name="Grade">
         <item>Grade</item>
         <item>PP1</item>

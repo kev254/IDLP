@@ -27,6 +27,8 @@
             android:textSize="18sp" />
 
         <Button
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/purple_700"
             android:id="@+id/enrollButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -36,9 +38,8 @@
             android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
-            app:cornerRadius="12dp"
-
-            android:text="  Enroll  " />
+            android:text="  Enroll  "
+            />
 
     </RelativeLayout>
 

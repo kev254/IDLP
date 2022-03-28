@@ -43,14 +43,15 @@
                 android:textSize="16sp" />
 
             <Button
-                android:textSize="16sp"
-                android:layout_centerVertical="true"
                 style="@style/Widget.MaterialComponents.Button.TextButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:text="View all"
                 android:textAllCaps="false"
-                android:text="View all" />
+                android:textColor="@color/purple_700"
+                android:textSize="16sp" />
         </RelativeLayout>
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/liveClassesRecyclerView"
@@ -76,13 +77,14 @@
                 android:textStyle="bold" />
 
             <Button
-                android:textAllCaps="false"
-                android:layout_centerVertical="true"
+                android:textColor="@color/purple_700"
                 style="@style/Widget.MaterialComponents.Button.TextButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
                 android:text="View all"
+                android:textAllCaps="false"
                 android:textSize="16sp" />
         </RelativeLayout>
         <androidx.recyclerview.widget.RecyclerView
@@ -122,13 +124,14 @@
                 android:textStyle="bold" />
 
             <Button
-                android:textAllCaps="false"
-                android:layout_centerVertical="true"
+                android:textColor="@color/purple_700"
                 style="@style/Widget.MaterialComponents.Button.TextButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
                 android:text="View all"
+                android:textAllCaps="false"
                 android:textSize="16sp" />
         </RelativeLayout>
         <androidx.recyclerview.widget.RecyclerView
@@ -157,13 +160,14 @@
                     android:textStyle="bold" />
 
                 <Button
-                    android:textAllCaps="false"
-                    android:layout_centerVertical="true"
+                    android:textColor="@color/purple_700"
                     style="@style/Widget.MaterialComponents.Button.TextButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
                     android:text="View all"
+                    android:textAllCaps="false"
                     android:textSize="16sp" />
         </RelativeLayout>
         <androidx.recyclerview.widget.RecyclerView
@@ -190,6 +194,7 @@
                 android:text="Subjects " />
 
             <Button
+                android:textColor="@color/purple_700"
                 android:textAllCaps="false"
                 android:layout_centerVertical="true"
                 style="@style/Widget.MaterialComponents.Button.TextButton"
