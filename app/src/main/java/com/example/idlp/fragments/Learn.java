@@ -13,8 +13,10 @@ import android.view.ViewGroup;
 import com.example.idlp.R;
 import com.example.idlp.adapter.AssignmentsAdapter;
 import com.example.idlp.adapter.LiveClassesAdapter;
+import com.example.idlp.adapter.OngoingAdapter;
 import com.example.idlp.adapter.SubjectsAdapter;
 import com.example.idlp.model.AssignmentsModel;
+import com.example.idlp.model.OngoingModel;
 import com.example.idlp.model.liveClassesModel;
 import com.example.idlp.model.subjectsModel;
 
@@ -122,6 +124,23 @@ public class Learn extends Fragment {
         subjectsRecyclerView.setAdapter(subjectsAdapter);
 
         //////--------------------End of subjects--------------////////
+
+         //////--------------------Ongoing--------------////////
+        ArrayList<OngoingModel> ongoingModelArrayList=new ArrayList<>();
+        OngoingAdapter ongoingAdapter =new OngoingAdapter(getContext(),ongoingModelArrayList);
+        RecyclerView ongoingRecyclerView=view.findViewById(R.id.ongoingRecyclerView);
+        ongoingRecyclerView.setNestedScrollingEnabled(false);
+        LinearLayoutManager linearLayoutManager3 = new LinearLayoutManager(getContext());
+        ongoingRecyclerView.setLayoutManager(linearLayoutManager3);
+
+        ongoingModelArrayList.add(new OngoingModel("English",true,20));
+        ongoingModelArrayList.add(new OngoingModel("Maths",false));
+        ongoingModelArrayList.add(new OngoingModel("C.R.E",true,70));
+        ongoingModelArrayList.add(new OngoingModel("Science",false));
+        ongoingRecyclerView.setAdapter(ongoingAdapter);
+
+
+        //////--------------------End of ongoing--------------////////
 
 
 
