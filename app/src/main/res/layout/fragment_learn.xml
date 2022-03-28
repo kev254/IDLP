@@ -109,6 +109,7 @@
             android:layout_height="wrap_content">
 
             <TextView
+                android:layout_centerVertical="true"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
@@ -120,17 +121,15 @@
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
-            <TextView
-                android:textSize="18sp"
+            <Button
+                android:textAllCaps="false"
+                android:layout_centerVertical="true"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
-                android:layout_marginStart="5dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="5dp"
-                android:layout_marginBottom="5dp"
                 android:text="View all"
-                android:textColor="@color/purple_700" />
+                android:textSize="16sp" />
         </RelativeLayout>
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/ongoingRecyclerView"
@@ -145,6 +144,7 @@
                 android:layout_height="wrap_content">
 
                 <TextView
+                    android:layout_centerVertical="true"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="5dp"
@@ -156,17 +156,15 @@
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
-            <TextView
-                android:textSize="18sp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true"
-                android:layout_marginStart="5dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="5dp"
-                android:layout_marginBottom="5dp"
-                android:text="View all"
-                android:textColor="@color/purple_700" />
+                <Button
+                    android:textAllCaps="false"
+                    android:layout_centerVertical="true"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:text="View all"
+                    android:textSize="16sp" />
         </RelativeLayout>
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/resourcesRecyclerView"
@@ -179,6 +177,7 @@
             android:layout_height="wrap_content">
 
             <TextView
+                android:layout_centerVertical="true"
                 android:textColor="@color/black"
                 android:textStyle="bold"
                 android:layout_width="wrap_content"
@@ -190,17 +189,15 @@
                 android:textSize="18sp"
                 android:text="Subjects " />
 
-            <TextView
-                android:textSize="18sp"
+            <Button
+                android:textAllCaps="false"
+                android:layout_centerVertical="true"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
-                android:layout_marginStart="5dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="5dp"
-                android:layout_marginBottom="5dp"
                 android:text="View all"
-                android:textColor="@color/purple_700" />
+                android:textSize="16sp" />
         </RelativeLayout>
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/subjectsRecyclerView"

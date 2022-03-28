@@ -11,8 +11,12 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.idlp.R;
+import com.example.idlp.adapter.AssignmentsAdapter;
 import com.example.idlp.adapter.LiveClassesAdapter;
+import com.example.idlp.adapter.SubjectsAdapter;
+import com.example.idlp.model.AssignmentsModel;
 import com.example.idlp.model.liveClassesModel;
+import com.example.idlp.model.subjectsModel;
 
 import java.util.ArrayList;
 
@@ -86,6 +90,39 @@ public class Learn extends Fragment {
         liveClassesRecyclerView.setAdapter(liveClassesAdapter);
 
         //////--------------------End of Live Classes--------------////////
+
+
+        //////--------------------Assignments--------------////////
+        ArrayList<AssignmentsModel> assignmentsModelArrayList=new ArrayList<>();
+        AssignmentsAdapter assignmentsAdapter =new AssignmentsAdapter(getContext(),assignmentsModelArrayList);
+        RecyclerView assignmentRecyclerView=view.findViewById(R.id.assignmentsRecyclerView);
+        assignmentRecyclerView.setNestedScrollingEnabled(false);
+        LinearLayoutManager linearLayoutManager1 = new LinearLayoutManager(getContext(),LinearLayoutManager.HORIZONTAL,false);
+        assignmentRecyclerView.setLayoutManager(linearLayoutManager1);
+
+        assignmentsModelArrayList.add(new AssignmentsModel("English","#89db70"));
+        assignmentsModelArrayList.add(new AssignmentsModel("Maths","#7099db"));
+        assignmentsModelArrayList.add(new AssignmentsModel("C.R.E","#b470db"));
+        assignmentRecyclerView.setAdapter(assignmentsAdapter);
+
+        //////--------------------End of Assignments--------------////////
+
+         //////--------------------Subjects--------------////////
+        ArrayList<subjectsModel> subjectsModelArrayList=new ArrayList<>();
+        SubjectsAdapter subjectsAdapter =new SubjectsAdapter(getContext(),subjectsModelArrayList);
+        RecyclerView subjectsRecyclerView=view.findViewById(R.id.subjectsRecyclerView);
+        subjectsRecyclerView.setNestedScrollingEnabled(false);
+        LinearLayoutManager linearLayoutManager2 = new LinearLayoutManager(getContext());
+        subjectsRecyclerView.setLayoutManager(linearLayoutManager2);
+
+        subjectsModelArrayList.add(new subjectsModel("English",true));
+        subjectsModelArrayList.add(new subjectsModel("Maths",false));
+        subjectsModelArrayList.add(new subjectsModel("C.R.E",true));
+        subjectsModelArrayList.add(new subjectsModel("Science",false));
+        subjectsRecyclerView.setAdapter(subjectsAdapter);
+
+        //////--------------------End of subjects--------------////////
+
 
 
 
