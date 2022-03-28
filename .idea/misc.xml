@@ -5,6 +5,9 @@
       <map>
         <entry key="app/src/main/res/drawable/fun_quiz.xml" value="0.1385" />
         <entry key="app/src/main/res/drawable/ic_baseline_auto_awesome_24.xml" value="0.1385" />
+        <entry key="app/src/main/res/drawable/ic_baseline_emoji_emotions_24.xml" value="0.1385" />
+        <entry key="app/src/main/res/drawable/ic_baseline_group_24.xml" value="0.1385" />
+        <entry key="app/src/main/res/drawable/ic_baseline_laptop_24.xml" value="0.1385" />
         <entry key="app/src/main/res/drawable/live.xml" value="0.1385" />
         <entry key="app/src/main/res/layout/activity_care_giver_information_registration.xml" value="0.19791666666666666" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.22" />
