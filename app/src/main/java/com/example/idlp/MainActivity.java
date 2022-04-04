@@ -74,21 +74,21 @@ public class MainActivity extends AppCompatActivity {
                     toolbar.setTitle("Home");
                     fragment = new Learn();
                     loadFragment(fragment);
-                    finish();
+//                    finish();
                     drawerLayout.closeDrawer(GravityCompat.START);
                     return true;
                 case R.id.nav_forum:
                     toolbar.setTitle("Forum");
                     fragment = new Forum();
                     loadFragment(fragment);
-                    finish();
+//                    finish();
                     drawerLayout.closeDrawer(GravityCompat.START);
                     return true;
                 case R.id.nav_profile:
                     toolbar.setTitle("Profile");
                     fragment = new Profile();
                     loadFragment(fragment);
-                    finish();
+//                    finish();
                     drawerLayout.closeDrawer(GravityCompat.START);
                     return true;
             }

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/cardView"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+            <TextView
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="username"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <TextView
+
+                android:drawablePadding="5dp"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="12sp"
+                android:text="12hrs ago"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:drawableStartCompat="@drawable/ic_baseline_date_range_24" />
+        </LinearLayout>
+
+    <TextView
+        android:layout_margin="5dp"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:textSize="16sp"
+        android:text="Lorem dubeuc ubu  wubw uebf sbu duw db subc ec dc wc cbhhdhdh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

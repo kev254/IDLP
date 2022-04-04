@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IDLP">
         <activity
+            android:name=".NewQuestion"
+            android:exported="false" />
+        <activity
+            android:name=".ReadPost"
+            android:exported="false" />
+        <activity
             android:name=".registration.CareGiverInformationRegistration"
             android:exported="false" />
         <activity
@@ -23,10 +29,11 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:theme="@style/AppTheme1"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/AppTheme1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

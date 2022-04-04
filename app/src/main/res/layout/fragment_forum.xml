@@ -3,12 +3,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".fragments.Forum">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+  <androidx.recyclerview.widget.RecyclerView
+      android:layout_width="match_parent"
+      android:id="@+id/recyclerView"
+      android:layout_height="match_parent"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:id="@+id/addPost"
+        android:layout_margin="16dp"
+        app:backgroundTint="@color/purple_700"
+        android:src="@drawable/ic_baseline_edit_24"
+        app:tint="@android:color/white"
+        android:layout_gravity="bottom|end"
+        android:layout_height="wrap_content"/>
 
 </FrameLayout>
